@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/script.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Brew & Bloom | Your Cozy Coffee Corner</title>
+
+    <meta name="description"
+          content="Discover handcrafted coffee, fresh pastries, and cozy moments at Brew & Bloom.">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">☕ Brew & Bloom</a>
+            <button
+    class="menu-toggle"
+    id="menu-toggle"
+    aria-label="Open navigation menu"
+    aria-expanded="false"
+    aria-controls="nav-links">
+    ☰
+</button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Our Menu</a></li>
+                <li><a href="#about">Our Story</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <a href="#menu" class="nav-button">Explore Menu</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">FRESHLY BREWED, MADE WITH LOVE</p>
+
+                <h1>Your Cozy Corner for
+                    <span>Great Coffee.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Slow mornings, delicious coffee, and warm conversations.
+                    Find your little moment of happiness at Brew & Bloom.
+                </p>
+
+                <a href="#menu" class="primary-button">
+                    Discover Our Menu →
+                </a>
+
+                <p class="hero-note">
+                    Fresh beans · Homemade treats · Happy moments
+                </p>
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1000&q=85"
+                    alt="Freshly prepared coffee in a cozy café">
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="menu-section">
+            <div class="section-heading">
+                <p class="eyebrow">A LITTLE CUP OF HAPPINESS</p>
+                <h2>Made Fresh, Served Warm</h2>
+                <p>Meet your new favorite coffee and café treats.</p>
+            </div>
+
+            <div class="menu-grid">
+
+                <article class="menu-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=700&q=80"
+                        alt="Creamy cappuccino coffee">
+
+                    <div class="menu-card-content">
+                        <h3>Classic Cappuccino</h3>
+                        <p>Rich espresso topped with silky milk foam.</p>
+                        <span class="price">₹149</span>
+                    </div>
+                </article>
+
+                <article class="menu-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=700&q=80"
+                        alt="Freshly brewed iced coffee">
+
+                    <div class="menu-card-content">
+                        <h3>Iced Coffee</h3>
+                        <p>Chilled coffee for a refreshing little break.</p>
+                        <span class="price">₹169</span>
+                    </div>
+                </article>
+
+                <article class="menu-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80"
+                        alt="Freshly baked bread and pastries">
+
+                    <div class="menu-card-content">
+                        <h3>Butter Croissant</h3>
+                        <p>Golden, flaky, buttery goodness, baked fresh.</p>
+                        <span class="price">₹99</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="about-image">
+                <img
+                    src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1000&q=85"
+                    alt="Warm and welcoming coffee shop interior">
+            </div>
+
+            <div class="about-content">
+                <p class="eyebrow">MORE THAN JUST COFFEE</p>
+                <h2>A Place to Pause, Sip & Smile</h2>
+
+                <p>
+                    At Brew & Bloom, we believe the best moments in life
+                    happen over a good cup of coffee. Our little café brings
+                    together fresh ingredients, comforting flavors, and
+                    the simple joy of being together.
+                </p>
+
+                <p>
+                    Whether you're catching up with friends, reading a book,
+                    or taking a break from a busy day, there's always a seat
+                    waiting for you.
+                </p>
+
+                <a href="#contact" class="primary-button">
+                    Come Say Hello →
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <p class="eyebrow">YOUR TABLE IS WAITING</p>
+            <h2>Let's Make Today a Little Warmer.</h2>
+
+            <p>
+                Drop by for your favorite brew and a freshly baked treat.
+            </p>
+
+           <div class="contact-details">
+    <p>📍 Your Neighborhood, Hyderabad</p>
+    <p>🕒 Monday – Sunday: 8:00 AM – 9:00 PM</p>
+    <p>☕ Fresh coffee, warm hearts, every day.</p>
+</div>
+
+<form id="contact-form" class="contact-form">
+    <label for="visitor-name">Your name</label>
+    <input
+        type="text"
+        id="visitor-name"
+        name="name"
+        placeholder="Enter your name"
+        required>
+
+    <label for="visitor-email">Your email</label>
+    <input
+        type="email"
+        id="visitor-email"
+        name="email"
+        placeholder="you@example.com"
+        required>
+
+    <label for="visitor-message">Your message</label>
+    <textarea
+        id="visitor-message"
+        name="message"
+        placeholder="Tell us how we can help..."
+        rows="4"
+        required></textarea>
+
+    <button type="submit" class="primary-button">
+        Send Enquiry →
+    </button>
+
+    <p id="form-status" role="status" aria-live="polite"></p>
+</form>
+
+<a href="#home" class="primary-button">Back to Top ↑</a>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>☕ Brew & Bloom</p>
+        <p>Made with love, served with warmth.</p>
+        <p>© 2026 Brew & Bloom. A demo café website.</p>
+    </footer>
+
+</body>
+</html>
